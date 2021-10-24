@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Double convert= Double.parseDouble(mET.getText().toString());
-                mTV.setText(String.valueOf(convert*100));               //Just put the formula here accordingly!!!
+                mTV.setText(String.valueOf(convert*100));              
                 mTV.setTextColor(Color.RED);
             }
         });
